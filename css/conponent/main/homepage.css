@@ -1,0 +1,187 @@
+.finance {
+  background-image: url("../images/6.jpg");
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 580px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .finance .box .box-left {
+    margin-top: 100px; }
+    .finance .box .box-left .img {
+      width: 100%; }
+      .finance .box .box-left .img img {
+        width: 100%; }
+  .finance .box .box-right {
+    background: #40281f45;
+    margin-top: 50px;
+    border-radius: 5px; }
+  .finance .box .boxheader .titele {
+    font-size: 5rem;
+    line-height: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: UTMLinotypeZapfinoKT;
+    color: #f7f7f7;
+    padding-top: 45px;
+    text-transform: capitalize; }
+  .finance .box .boxheader .sm-title {
+    color: #f7f7f7;
+    font-size: 14px; }
+  .finance .box .boxcontent {
+    color: #f7f7f7;
+    padding-bottom: 35px;
+    text-align: justify;
+    font-size: 14px; }
+
+.motel .box .box-left {
+  margin-top: 100px; }
+  .motel .box .box-left .img {
+    width: 100%; }
+    .motel .box .box-left .img img {
+      width: 100%; }
+
+.motel .box .box-right {
+  background: #40281f45;
+  margin-top: 50px;
+  border-radius: 5px; }
+
+.motel .box .boxheader .titele {
+  font-size: 5rem;
+  line-height: 40px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: UTMLinotypeZapfinoKT;
+  color: #f7f7f7;
+  padding-top: 45px;
+  text-transform: capitalize; }
+
+.motel .box .boxheader .sm-title {
+  color: #f7f7f7;
+  font-size: 14px; }
+
+.motel .box .boxcontent {
+  color: #f7f7f7;
+  padding-bottom: 35px;
+  text-align: justify;
+  font-size: 14px; }
+
+.pawn .box .box-left {
+  margin-top: 100px; }
+  .pawn .box .box-left .img {
+    width: 100%; }
+    .pawn .box .box-left .img img {
+      width: 100%; }
+
+.pawn .box .box-right {
+  background: #40281f45;
+  margin-top: 50px;
+  border-radius: 5px; }
+
+.pawn .box .boxheader .titele {
+  font-size: 5rem;
+  line-height: 40px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: UTMLinotypeZapfinoKT;
+  color: #f7f7f7;
+  padding-top: 45px;
+  text-transform: capitalize; }
+
+.pawn .box .boxheader .sm-title {
+  color: #f7f7f7;
+  font-size: 14px; }
+
+.pawn .box .boxcontent {
+  color: #f7f7f7;
+  padding-bottom: 35px;
+  text-align: justify;
+  font-size: 14px; }
+
+.accredit {
+  margin-bottom: 60px; }
+  .accredit .box .box-left {
+    margin-top: 100px; }
+    .accredit .box .box-left .img {
+      width: 100%; }
+      .accredit .box .box-left .img img {
+        width: 100%; }
+  .accredit .box .box-right {
+    margin-top: 50px; }
+  .accredit .box .boxheader .titele {
+    font-size: 5rem;
+    line-height: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: UTMLinotypeZapfinoKT;
+    color: #383838e6;
+    padding-top: 45px;
+    text-transform: capitalize; }
+  .accredit .box .boxheader .sm-title {
+    color: #383838e6;
+    font-size: 14px; }
+  .accredit .box .boxcontent {
+    color: #383838e6;
+    text-align: justify;
+    font-size: 14px; }
+    .accredit .box .boxcontent.collapse {
+      height: 105px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical; }
+      .accredit .box .boxcontent.collapse.show {
+        display: block;
+        height: auto; }
+  .accredit .box a.read-more.collapsed {
+    font-size: 11px;
+    color: #00683b; }
+    .accredit .box a.read-more.collapsed:after {
+      content: 'Read more'; }
+  .accredit .box a.read-more:not(.collapsed):after {
+    content: 'Read less';
+    font-size: 11px;
+    color: #00683b; }
+  .accredit .box a.read-more:hover {
+    text-decoration: none; }
+  .accredit .lstaccredit {
+    margin-top: 30px; }
+    .accredit .lstaccredit .item {
+      border: 1px solid gainsboro;
+      border-radius: 5px;
+      position: relative;
+      padding: 5px;
+      margin-bottom: 20px; }
+      .accredit .lstaccredit .item .btnadd {
+        background: #00683b;
+        position: absolute;
+        right: -8px;
+        top: -10px;
+        padding: 0;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 3px;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s; }
+      .accredit .lstaccredit .item .title {
+        font-size: 14px;
+        color: #464545e0;
+        text-align: center; }
+      .accredit .lstaccredit .item .caption {
+        font-size: 12px;
+        text-align: center; }
+      .accredit .lstaccredit .item:hover {
+        background: #ed1d2487;
+        border-color: transparent;
+        color: #fff; }
+        .accredit .lstaccredit .item:hover .title {
+          color: #fff; }
+        .accredit .lstaccredit .item:hover .btnadd {
+          opacity: 1;
+          visibility: visible; }
